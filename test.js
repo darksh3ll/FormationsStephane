@@ -9,4 +9,4 @@ for (let i = 0 ; i < 10 ; i++){
 
    }
 console.log(resulat);
-console.log(totalResulat);
+console.log("Resultat du tableau = " +totalResulat);

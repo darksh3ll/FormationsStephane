@@ -1,10 +1,12 @@
 const resulat = [];
-for (i = 0 ; i < 10 ; i++) {
-    const chiffre = Math.round(Math.random()*19);
-    
-    if (chiffre[i] != resultat) {
-        resulat.push chiffre[i]
+let totalResulat = 0;
+for (let i = 0 ; i < 10 ; i++){
+    const chiffres = Math.round(Math.random()*100);
+    resulat.push(chiffres)
     }
-    
-}
-console.log(resultat);
+   for ( let i = 0 ; i < resulat.length ; i++){
+       totalResulat += resulat[i];
+
+   }
+console.log(resulat);
+console.log(totalResulat);

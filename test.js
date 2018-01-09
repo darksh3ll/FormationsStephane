@@ -14,7 +14,7 @@ console.log("Resultat du tableau = " +totalResulat);*/
 
 const sujet = ["stephanie","stephane","stan","ayrton"];
 const verbe = ["mange","saute","tire","suce","attaque"];
-const compl = ["couilles","un mec","une fille","exta terrestre"];
+const compl = ["une couilles","un mec","une fille"," un exta terrestre"];
 
 function aleatoire(arr) {
     return arr[Math.floor(Math.random() * arr.length)]

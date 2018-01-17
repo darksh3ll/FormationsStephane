@@ -7,3 +7,4 @@ while (i < 10) {
     console.log(`${num} x ${i}`);
 i++
 }
+
